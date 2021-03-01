@@ -45,8 +45,8 @@ class _AdminSignInScreenState extends State<AdminSignInScreen> {
 
   @override
   Widget build(BuildContext context) {
-    double _screenwidth = MediaQuery.of(context).size.width,
-        _screenheight = MediaQuery.of(context).size.height;
+    /*  double _screenwidth = MediaQuery.of(context).size.width,
+        _screenheight = MediaQuery.of(context).size.height;*/
     return SingleChildScrollView(
       child: Container(
         margin: EdgeInsets.only(top: 10),

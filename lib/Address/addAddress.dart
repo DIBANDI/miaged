@@ -111,8 +111,9 @@ class AddAddress extends StatelessWidget {
                               DateTime.now().millisecondsSinceEpoch.toString())
                           .setData(model)
                           .then((value) {
-                        final snack = SnackBar(
-                            content: Text("Nouvelle Adresse ajoutée."));
+                        /* final snack =*/
+
+                        SnackBar(content: Text("Nouvelle Adresse ajoutée."));
                         FocusScope.of(context).requestFocus(FocusNode());
                         formkey.currentState.reset();
                       });

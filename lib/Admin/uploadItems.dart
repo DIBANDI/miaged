@@ -42,7 +42,7 @@ class _UploadPageState extends State<UploadPage>
         flexibleSpace: Container(
           decoration: new BoxDecoration(
             gradient: new LinearGradient(
-              colors: [Colors.blueGrey[500], Colors.blueGrey[900]],
+              colors: [Colors.blueGrey[200], Colors.blueGrey[900]],
               begin: const FractionalOffset(0.0, 0.0),
               end: const FractionalOffset(0.0, 1.0),
               stops: [0.0, 1.0],
@@ -219,7 +219,7 @@ class _UploadPageState extends State<UploadPage>
             child: Text(
               "Ajouter",
               style: TextStyle(
-                  color: Colors.pink,
+                  color: Colors.white,
                   fontSize: 16.0,
                   fontWeight: FontWeight.bold),
             ),
@@ -248,17 +248,17 @@ class _UploadPageState extends State<UploadPage>
           ),
           ListTile(
             leading: Icon(
-              Icons.perm_device_information,
-              color: Colors.pink,
+              Icons.shopping_bag_outlined,
+              color: Colors.blueGrey[900],
             ),
             title: Container(
               width: 250.0,
               child: TextField(
-                style: TextStyle(color: Colors.deepPurpleAccent),
+                style: TextStyle(color: Colors.blueGrey[900]),
                 controller: _shortInfoTextEditingController,
                 decoration: InputDecoration(
                   hintText: "Short Info",
-                  hintStyle: TextStyle(color: Colors.deepPurpleAccent),
+                  hintStyle: TextStyle(color: Colors.black),
                   border: InputBorder.none,
                 ),
               ),
@@ -269,17 +269,17 @@ class _UploadPageState extends State<UploadPage>
           ),
           ListTile(
             leading: Icon(
-              Icons.perm_device_information,
-              color: Colors.pink,
+              Icons.shopping_bag_outlined,
+              color: Colors.blueGrey[900],
             ),
             title: Container(
               width: 250.0,
               child: TextField(
-                style: TextStyle(color: Colors.deepPurpleAccent),
+                style: TextStyle(color: Colors.blueGrey[900]),
                 controller: _titleTextEditingController,
                 decoration: InputDecoration(
                   hintText: "Titre",
-                  hintStyle: TextStyle(color: Colors.deepPurpleAccent),
+                  hintStyle: TextStyle(color: Colors.black),
                   border: InputBorder.none,
                 ),
               ),
@@ -290,17 +290,17 @@ class _UploadPageState extends State<UploadPage>
           ),
           ListTile(
             leading: Icon(
-              Icons.perm_device_information,
-              color: Colors.pink,
+              Icons.shopping_bag_outlined,
+              color: Colors.blueGrey[900],
             ),
             title: Container(
               width: 250.0,
               child: TextField(
-                style: TextStyle(color: Colors.deepPurpleAccent),
+                style: TextStyle(color: Colors.blueGrey[900]),
                 controller: _descriptionTextEditingController,
                 decoration: InputDecoration(
                   hintText: "Description",
-                  hintStyle: TextStyle(color: Colors.deepPurpleAccent),
+                  hintStyle: TextStyle(color: Colors.black),
                   border: InputBorder.none,
                 ),
               ),
@@ -311,18 +311,18 @@ class _UploadPageState extends State<UploadPage>
           ),
           ListTile(
             leading: Icon(
-              Icons.perm_device_information,
-              color: Colors.pink,
+              Icons.shopping_bag_outlined,
+              color: Colors.blueGrey[900],
             ),
             title: Container(
               width: 250.0,
               child: TextField(
                 keyboardType: TextInputType.number,
-                style: TextStyle(color: Colors.deepPurpleAccent),
+                style: TextStyle(color: Colors.blueGrey[900]),
                 controller: _priceTextEditingController,
                 decoration: InputDecoration(
                   hintText: "Prix",
-                  hintStyle: TextStyle(color: Colors.deepPurpleAccent),
+                  hintStyle: TextStyle(color: Colors.black),
                   border: InputBorder.none,
                 ),
               ),
@@ -333,18 +333,18 @@ class _UploadPageState extends State<UploadPage>
           ),
           ListTile(
             leading: Icon(
-              Icons.perm_device_information,
-              color: Colors.pink,
+              Icons.shopping_bag_outlined,
+              color: Colors.blueGrey[900],
             ),
             title: Container(
               width: 250.0,
               child: TextField(
                 keyboardType: TextInputType.number,
-                style: TextStyle(color: Colors.deepPurpleAccent),
+                style: TextStyle(color: Colors.blueGrey[900]),
                 controller: _sizeTextEditingController,
                 decoration: InputDecoration(
                   hintText: "Taille",
-                  hintStyle: TextStyle(color: Colors.deepPurpleAccent),
+                  hintStyle: TextStyle(color: Colors.black),
                   border: InputBorder.none,
                 ),
               ),

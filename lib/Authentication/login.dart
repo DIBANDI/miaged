@@ -23,8 +23,8 @@ class _LoginState extends State<Login> {
 
   @override
   Widget build(BuildContext context) {
-    double _screenwidth = MediaQuery.of(context).size.width,
-        _screenheight = MediaQuery.of(context).size.height;
+    /*double _screenwidth = MediaQuery.of(context).size.width,
+        _screenheight = MediaQuery.of(context).size.height;*/
 
     return SingleChildScrollView(
       child: Container(

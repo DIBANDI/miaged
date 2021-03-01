@@ -17,7 +17,7 @@ class _ProductPageState extends State<ProductPage> {
   int quantityOfItems = 1;
   @override
   Widget build(BuildContext context) {
-    Size screenSize = MediaQuery.of(context).size;
+    /* Size screenSize = MediaQuery.of(context).size;*/
 
     return SafeArea(
       child: Scaffold(

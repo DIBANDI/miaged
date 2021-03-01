@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:miage_shop/Admin/uploadItems.dart';
 import 'package:miage_shop/Animation/FadeAnimation.dart';
-import 'package:miage_shop/Store/product_page.dart';
 import 'package:miage_shop/Counters/cartitemcounter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
@@ -101,11 +100,6 @@ Widget sourceInfo(ItemModel model, BuildContext context,
   return InkWell(
     splashColor: Colors.blueGrey,
     child: GestureDetector(
-      onTap: () {
-        Route route =
-            MaterialPageRoute(builder: (c) => ProductPage(itemModel: model));
-        Navigator.pushReplacement(context, route);
-      },
       child: Container(
         height: 180.0,
         padding: EdgeInsets.all(8),
